@@ -1,8 +1,8 @@
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-class Demo{
-    Demo(){
+class RegistrationForm{
+    RegistrationForm(){
     Frame f=new Frame("Registration Form");
     //labels
     Label l1=new Label("Name:");//textfeild
@@ -74,7 +74,7 @@ f.add(c);
     });
 }
     public static void main(String[] args) {
-        Demo obj=new Demo();
+        RegistrationForm obj=new RegistrationForm();
     }
 
   
